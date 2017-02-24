@@ -335,7 +335,7 @@ public class MyService extends Service {
 
         // 이대표 바람둥이
 
-        ////////////////////
+        ////////////////////sdfsdfsdfsdf
         //dsf
 
         // start capture reader
