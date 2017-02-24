@@ -336,6 +336,7 @@ public class MyService extends Service {
         // 이대표 바람둥이
 
         ////////////////////
+        //dsf
 
         // start capture reader
         mImageReader = ImageReader.newInstance(mWidth, mHeight, PixelFormat.RGBA_8888, 2);
