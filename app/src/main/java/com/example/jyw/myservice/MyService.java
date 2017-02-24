@@ -279,12 +279,6 @@ public class MyService extends Service {
 
     private void startProjection() {
         sMediaProjection = mProjectionManager.getMediaProjection(-1, data);
-//        Log.e(TAG, "getData = " + data.getData());
-//        Log.e(TAG, "getDataString = " + data.getDataString());
-//        Log.e(TAG, "getPackage = " + data.getPackage());
-//        Log.e(TAG, "getScheme = " + data.getScheme());
-//        Log.e(TAG, "getType = " + data.getType());
-//        Log.e(TAG, "toString = " + data.toString());
 
         if (sMediaProjection != null) {
             File externalFilesDir = getExternalFilesDir(null);
@@ -338,6 +332,8 @@ public class MyService extends Service {
         mDisplay.getSize(size);
         mWidth = size.x;
         mHeight = size.y;
+
+        // 이대표 바람둥이
 
         // start capture reader
         mImageReader = ImageReader.newInstance(mWidth, mHeight, PixelFormat.RGBA_8888, 2);
