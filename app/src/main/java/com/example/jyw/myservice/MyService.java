@@ -335,6 +335,8 @@ public class MyService extends Service {
 
         // 이대표 바람둥이
 
+        ////////////////////
+
         // start capture reader
         mImageReader = ImageReader.newInstance(mWidth, mHeight, PixelFormat.RGBA_8888, 2);
         mVirtualDisplay = sMediaProjection.createVirtualDisplay(SCREENCAP_NAME, mWidth, mHeight, mDensity, VIRTUAL_DISPLAY_FLAGS, mImageReader.getSurface(), null, mHandler);
